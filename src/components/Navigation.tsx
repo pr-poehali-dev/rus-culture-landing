@@ -8,25 +8,25 @@ const Navigation = () => {
           <h1 className="text-2xl font-bold text-red-700">Русская Культура</h1>
           <div className="hidden md:flex space-x-8">
             <a
-              href="#hero"
+              href="/"
               className="text-gray-700 hover:text-red-700 transition-colors"
             >
               Главная
             </a>
             <a
-              href="#history"
+              href="/history"
               className="text-gray-700 hover:text-red-700 transition-colors"
             >
               История
             </a>
             <a
-              href="#traditions"
+              href="/traditions"
               className="text-gray-700 hover:text-red-700 transition-colors"
             >
               Традиции
             </a>
             <a
-              href="#arts"
+              href="/arts"
               className="text-gray-700 hover:text-red-700 transition-colors"
             >
               Искусство
