@@ -20,8 +20,7 @@ export default defineConfig({
     allowedHosts: true,
     hmr: {
       overlay: false, // Disables the error overlay if you only want console errors
-      host: "localhost",
-      protocol: "ws",
+      port: 5173,
     },
   },
 });
